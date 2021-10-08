@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44616568, g: 0.49594134, b: 0.5745564, a: 1}
+  m_IndirectSpecularColor: {r: 0.4461658, g: 0.49594134, b: 0.57455635, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3021,6 +3021,7 @@ GameObject:
   - component: {fileID: 98801243}
   - component: {fileID: 98801242}
   - component: {fileID: 98801241}
+  - component: {fileID: 98801245}
   m_Layer: 0
   m_Name: Obstacle 4
   m_TagString: Untagged
@@ -3104,6 +3105,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -11.627, y: 0, z: 0}
+--- !u!95 &98801245
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98801240}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 54e5697df2d6e9745ab291afd39e4d79, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &125627987
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,7 +3245,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20022
+  m_Name: pb_Mesh23490
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3395,6 +3415,7 @@ GameObject:
   - component: {fileID: 188753329}
   - component: {fileID: 188753328}
   - component: {fileID: 188753327}
+  - component: {fileID: 188753331}
   m_Layer: 0
   m_Name: Obstacle 5
   m_TagString: Untagged
@@ -3478,6 +3499,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -12.499, y: 0, z: 0}
+--- !u!95 &188753331
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188753326}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bff41a924b81cf94ba4f03644e42a2dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &266956134
 GameObject:
   m_ObjectHideFlags: 0
@@ -20084,7 +20124,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20042
+  m_Name: pb_Mesh23522
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21252,7 +21292,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20000
+  m_Name: pb_Mesh23468
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21454,7 +21494,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825597387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1000001, y: 5.9, z: -51.5}
+  m_LocalPosition: {x: 3.1000001, y: 4.2, z: -51.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 482423169}
@@ -21467,7 +21507,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20068
+  m_Name: pb_Mesh23560
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24284,7 +24324,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19976
+  m_Name: pb_Mesh23408
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24527,7 +24567,7 @@ PrefabInstance:
     - target: {fileID: 622763330879593280, guid: 80dc5fed223346e4fa53a8715357b330,
         type: 3}
       propertyPath: ShotsToComplete
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4303680812698288562, guid: 80dc5fed223346e4fa53a8715357b330,
         type: 3}
